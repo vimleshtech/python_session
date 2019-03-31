@@ -1,0 +1,172 @@
+https://github.com/vimleshtech/python_session
+====================================================
+
+
+Today's Topics
+=======================
+-OVerview of python
+-Python Environment
+-Data Type and variable
+-Operator
+-Condition
+-Input and Output
+-Loop 
+
+OVerview of python
+==============================
+-> Python is open source programing language which is plateform independent 
+   plateform independent  : works on any operating system   (windows, linux, mac etc)
+-> Python is interpreter based language(line by line execution)
+-> Python is also scripting language 
+-> Python is indentation/allignment based language 
+-> Less syntax 
+	
+Why Python?
+==================
+-> Data Science 
+-> Machine Learning
+-> Autoation / Web Crawler 
+-> AI 
+-> Deep Learning
+-> RPA 
+-> Web Development
+-> Automation Software Testig
+-> IT Infra Security
+-> Ansible, Docker  etc.
+
+
+
+
+Python Environment
+===============================
+Version:
+	3.7		*
+	3.6		**
+	3.x
+	..
+	2.7		: default on linux 
+
+Codiing Editor / Window:
+	-Pyton Shell/Command Line / Console
+		>>>
+	-Python IDLE 
+		python code should be save with .py extension 
+
+	-Other Editor 
+		-VSCode		*
+		-Jupyter	*	
+		-Anoconda
+		-Pycharm
+		-Spyder
+		-Sublime
+		-Eclipse
+		etc.
+		
+Data Type and variable
+==============================
+variable: is temp. memory where data can be stored 
+Example: - Correct syntax
+
+a =1
+a1= 'skhss'
+a = True
+a_b ='ss'
+a,b =22,333
+
+
+incorrect syntax:
+1a =1
+a b = 'skjhshgs'
+a+b = 11
+
+
+Data Type
+------------------
+int		 a = 11
+float		 a = 444.33
+str		 a = 'sksjhsh'  or a ="skhsjfsgh "
+bool		 a = True / False 
+
+
+list 		 a = [11,222,333,'dddd']  
+		 -list is mutable 	 
+tuple		 a =(11,22,33,444,'ffff')
+		 -tuple is imutable /read only
+dict		 d = {'a':'alpha',1:'one','d':100,200:[11,222,333,44,5]}
+		 -key:value
+set 		 s = {'iphone','dove','iphone','dell laptop',333}
+		-set contains unique value, one iphone will be removed automatically
+
+Note:
+	type(var/data)	: return data type 
+
+Operator
+============================
+Arithmetic:
+	+		2+4 = 6
+	-		2-4 =-2
+	*		2*4 = 8
+	**		2**4 = 16 (2^4)
+	/		87/10 = 8.7
+	//		87//10 = 8
+	%		87%10 = 7
+	
+Conditional:
+	>
+	>=
+	<
+	<=
+	==
+	!=		
+	in 		
+			a =[11,22,334,55]
+			if 1 in a:
+				...true 
+			else:
+				...false
+		
+					
+	not in 	
+
+Logical	: to bind two or more than two condition in a single block 
+	and 	
+			if a  > b and a>c:
+				..
+	or 		
+
+Assignment Operator
+	=		a =1
+	+=		a+=10  or a =a+10
+	-=
+	*=	
+ 
+Condition : is decision making statement 
+==========================================
+*Python doesn't support switch case 
+-If condition 
+	a. if condition 
+	b. if else codnition
+	c. if elif elif ... else condition / ladder if else 
+	d. nested if else / if inside if condition 
+	
+
+
+Input and Output
+======================
+input()		# default input type(data type) is string in python >=3.0 version 
+print()		# show to user/console 
+		#print - default change the new line 	
+
+Loop  : is iterator or repeation of statement 
+==========================
+Example:
+ 1 2 3 4 ..100
+
+-init 				: 1
+-condition			: 100
+-steps/increment/decrement	: +1
+
+
+Types of loop:
+	a. while		
+	b. for 
